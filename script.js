@@ -6,7 +6,7 @@ const port = 8001;
 app.use(express.static(__dirname));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/test2.html");
+  res.sendFile(__dirname + "/index.html");
 });
 const {Pool,Client}= require('pg')
 
